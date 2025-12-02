@@ -1,0 +1,65 @@
+@{
+    ViewData["Title"] = "Notícias";
+}
+
+<section class="av-hero">
+    <span class="av-hero__eyebrow">Gazeta de Al Varin</span>
+    <h1 class="av-hero__title">Ecos do Mundo Vivo</h1>
+    <p class="av-hero__subtitle">
+        Acompanhe os relatos oficiais da guerra contra o vazio, veja como as cidades-estado respondem às
+        ameaças e descubra quais heróis ganharam renome nas últimas semanas.
+    </p>
+    <a class="av-cta" asp-controller="Atualizacoes" asp-action="NotasDePatch">Notas do último ciclo</a>
+</section>
+
+<section class="av-section">
+    <h2 class="av-section-heading">Destaques da Semana</h2>
+    <div class="av-grid av-grid--three">
+        <article class="av-card">
+            <h3 class="av-card__title">Fronteira de Yorgard Reforçada</h3>
+            <p class="av-card__body">
+                O Conselho de Yorgard concluiu a terceira camada de muralhas vivas cultivadas a partir da seiva
+                da Árvore-Mãe. Patrulhas especiais buscam voluntários para missões de reconhecimento em Anor Calum.
+            </p>
+            <p class="av-card__meta">Publicado há 2h</p>
+        </article>
+        <article class="av-card">
+            <h3 class="av-card__title">Luminaristas Recuperam Relíquia</h3>
+            <p class="av-card__body">
+                Arcanos de Lumim encontraram um globo ancestral que exala energia purificadora. Há relatos de que
+                sacerdotes conseguiram acalmar bestas corrompidas com um único toque do artefato.
+            </p>
+            <p class="av-card__meta">Publicado há 6h</p>
+        </article>
+        <article class="av-card">
+            <h3 class="av-card__title">Obras na Academia de Caelum</h3>
+            <p class="av-card__body">
+                A academia celeste anunciou novos cursos para domadores de ventos. Um convite aberto foi feito aos
+                aventureiros para testar planadores reforjados com metal arcano.
+            </p>
+            <p class="av-card__meta">Publicado ontem</p>
+        </article>
+    </div>
+</section>
+
+<div class="av-divider"></div>
+
+<section class="av-section">
+    <h2 class="av-section-heading">Relatórios de Campo</h2>
+    <div class="av-grid av-grid--two">
+        <article class="av-card">
+            <h3 class="av-card__title">Incursões em Darcos</h3>
+            <p class="av-card__body">
+                Batedores indicam que as sombras em Darcos ganharam novas formas. O uso de lanternas espectrais será
+                obrigatório para expedições a partir desta quinzena.
+            </p>
+        </article>
+        <article class="av-card">
+            <h3 class="av-card__title">Ritual em Turan</h3>
+            <p class="av-card__body">
+                Xamãs do Deserto de Turan abriram inscrições para o Ritual da Tempestade Vermelha, capaz de forjar
+                alianças com espíritos da areia. Prepare seu clã com antecedência.
+            </p>
+        </article>
+    </div>
+</section>

@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="@System.Globalization.CultureInfo.CurrentUICulture.Name">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Mmorpg.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Mmorpg.Web.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="av-page-wrap">
+        <div class="av-page-overlay">
+    <header class="av-header">
+        <div class="av-topbar">
+            <div class="av-brand">
+                <a asp-area="" asp-controller="Home" asp-action="Index">Al Varin</a>
+            </div>
+            <nav class="av-meta-nav" aria-label="Navegação secundária">
+                <ul class="av-meta-list">
+                    <li><a asp-controller="Account" asp-action="Register">@L["Register"]</a></li>
+                    <li><a asp-controller="Account" asp-action="Login">@L["Login"]</a></li>
+                    <li><a asp-controller="Portal" asp-action="Download">@L["Download"]</a></li>
+                    <li><a asp-controller="Portal" asp-action="Loja">@L["Store"]</a></li>
+                    <li class="has-submenu">
+                        <button class="av-meta-trigger" type="button" aria-haspopup="true" aria-expanded="false">@L["Language"]</button>
+                        <ul class="av-submenu av-meta-submenu" aria-label="Seleção de idioma">
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="en" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">English</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="de" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">Deutsch</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="pl" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">Polski</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="ru" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">Русский</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="fr" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">Français</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="pt" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">Português</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="es" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">Español</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="it" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">Italiano</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="ko" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">한국어</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="ja" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">日本語</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="id" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">Bahasa Indonesia</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="zh-Hans" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">简体中文</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="zh-Hant" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">繁體中文</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="ar" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">العربية</a></li>
+                            <li><a asp-controller="Language" asp-action="Set" asp-route-culture="tr" asp-route-returnUrl="@Context.Request.Path@Context.Request.QueryString">Türkçe</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="av-meta-auth">
+                    <partial name="_LoginPartial" />
+                </div>
+            </nav>
+        </div>
+        <nav class="av-main-nav" aria-label="Navegação principal">
+            <ul class="av-main-list">
+                <li><a asp-controller="News" asp-action="Index" class="av-nav-link">@L["News"]</a></li>
+                <li class="has-submenu">
+                    <a asp-controller="Community" asp-action="Index" class="av-nav-link" aria-haspopup="true" aria-expanded="false">@L["Community"]</a>
+                    <ul class="av-submenu">
+                        <li><a asp-controller="Community" asp-action="Forum">@L["Forum"]</a></li>
+                        <li><a asp-controller="Community" asp-action="Wiki">@L["Wiki"]</a></li>
+                        <li><a asp-controller="Community" asp-action="ProgramaDeCriadores">@L["CreatorsProgram"]</a></li>
+                        <li><a asp-controller="Community" asp-action="TwitchDrops">@L["TwitchDrops"]</a></li>
+                        <li><a asp-controller="Community" asp-action="QuadroDeMortes">@L["DeathsBoard"]</a></li>
+                        <li><a asp-controller="Community" asp-action="CriadorDePersonagem">@L["CharacterCreator"]</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a asp-controller="Descubra" asp-action="Index" class="av-nav-link" aria-haspopup="true" aria-expanded="false">@L["Discover"]</a>
+                    <ul class="av-submenu">
+                        <li><a asp-controller="Descubra" asp-action="Guias">@L["Guides"]</a></li>
+                        <li><a asp-controller="Descubra" asp-action="BuildsBasicas">@L["BasicBuilds"]</a></li>
+                        <li><a asp-controller="Descubra" asp-action="PerguntasFrequentes">@L["FAQ"]</a></li>
+                        <li><a asp-controller="Descubra" asp-action="Videos">@L["Videos"]</a></li>
+                        <li><a asp-controller="Descubra" asp-action="Historia">@L["Story"]</a></li>
+                        <li><a asp-controller="Descubra" asp-action="Wallpapers">@L["Wallpapers"]</a></li>
+                        <li><a asp-controller="Descubra" asp-action="Trabalhos">@L["Jobs"]</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a asp-controller="Atualizacoes" asp-action="Index" class="av-nav-link" aria-haspopup="true" aria-expanded="false">@L["Updates"]</a>
+                    <ul class="av-submenu">
+                        <li><a asp-controller="Atualizacoes" asp-action="NotasDePatch">@L["PatchNotes"]</a></li>
+                        <li><a asp-controller="Atualizacoes" asp-action="Eventos">@L["Events"]</a></li>
+                        <li><a asp-controller="Atualizacoes" asp-action="Temporadas">@L["Seasons"]</a></li>
+                        <li><a asp-controller="Atualizacoes" asp-action="Hotfixes">@L["Hotfixes"]</a></li>
+                    </ul>
+                </li>
+                <li><a asp-controller="Suporte" asp-action="Index" class="av-nav-link">@L["Support"]</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="av-content container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="av-footer" role="contentinfo">
+        <div class="container av-footer__wrap">
+            <div class="av-footer__top">
+                <section class="av-footer__brand" aria-labelledby="footer-alvarin-title">
+                    <h2 id="footer-alvarin-title">Al Varin</h2>
+                    <p>@L["Footer_About"]</p>
+                    <div class="av-footer__cta-group">
+                        <a class="av-footer__cta" asp-controller="Portal" asp-action="Download">@L["Download"]</a>
+                        <a class="av-footer__cta av-footer__cta--ghost" asp-controller="Account" asp-action="Register">@L["CreateAccount"]</a>
+                    </div>
+                </section>
+
+                <section class="av-footer__column" aria-labelledby="footer-news-title">
+                    <h3 id="footer-news-title">@L["Footer_News"]</h3>
+                    <ul class="av-footer__list">
+                        <li><a asp-controller="News" asp-action="Index">@L["Footer_NewsCenter"]</a></li>
+                        <li><a asp-controller="Atualizacoes" asp-action="NotasDePatch">@L["PatchNotes"]</a></li>
+                        <li><a asp-controller="Atualizacoes" asp-action="Eventos">@L["Footer_SeasonalEvents"]</a></li>
+                        <li><a asp-controller="News" asp-action="EventosAoVivo">@L["Footer_LiveEvents"]</a></li>
+                    </ul>
+                </section>
+
+                <section class="av-footer__column" aria-labelledby="footer-contact-title">
+                    <h3 id="footer-contact-title">@L["Footer_ContactSupport"]</h3>
+                    <ul class="av-footer__list av-footer__list--contact">
+                        <li><span class="av-footer__label">@L["Footer_HelpCenter"]</span> <a asp-controller="Suporte" asp-action="Index">@L["Support"]</a></li>
+                        <li><span class="av-footer__label">@L["Footer_Email"]</span> <a href="mailto:suporte@alvarin.com">suporte@alvarin.com</a></li>
+                        <li><span class="av-footer__label">@L["Footer_Partners"]</span> <a asp-controller="Community" asp-action="ProgramaDeCriadores">@L["CreatorsProgram"]</a></li>
+                        <li><span class="av-footer__label">@L["Footer_Press"]</span> <a href="mailto:press@alvarin.com">press@alvarin.com</a></li>
+                    </ul>
+                    <form class="av-footer__newsletter" aria-label="@L["Footer_Newsletter_Aria"]">
+                        <label for="footer-email">@L["Footer_Newsletter_Title"]</label>
+                        <div class="av-footer__newsletter-input">
+                            <input id="footer-email" type="email" name="email" placeholder="@L["Footer_Newsletter_Placeholder"]" required>
+                            <button type="submit">@L["Footer_Newsletter_Subscribe"]</button>
+                        </div>
+                    </form>
+                </section>
+
+                <nav class="av-footer__column" aria-labelledby="footer-sitemap-title">
+                    <h3 id="footer-sitemap-title">@L["Footer_Sitemap"]</h3>
+                    <div class="av-footer__sitemap">
+                        <ul class="av-footer__list">
+                            <li><a asp-controller="Home" asp-action="Index">@L["Home"]</a></li>
+                            <li><a asp-controller="Descubra" asp-action="Index">@L["Discover"]</a></li>
+                            <li><a asp-controller="Community" asp-action="Index">@L["Community"]</a></li>
+                            <li><a asp-controller="News" asp-action="Index">@L["News"]</a></li>
+                        </ul>
+                        <ul class="av-footer__list">
+                            <li><a asp-controller="Atualizacoes" asp-action="Index">@L["Updates"]</a></li>
+                            <li><a asp-controller="Portal" asp-action="Download">@L["Download"]</a></li>
+                            <li><a asp-controller="Portal" asp-action="Loja">@L["Store"]</a></li>
+                            <li><a asp-controller="Suporte" asp-action="Index">@L["Support"]</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="av-footer__bottom">
+                <p>&copy; 2025 - Al Varin. @L["AllRightsReserved"]</p>
+                <ul class="av-footer__legal">
+                    <li><a asp-controller="Home" asp-action="Privacy">@L["Privacy"]</a></li>
+                    <li><a href="#">@L["TermsOfUse"]</a></li>
+                    <li><a href="#">@L["CookieSettings"]</a></li>
+                </ul>
+                <ul class="av-footer__social" aria-label="Canais oficiais">
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">Twitch</a></li>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">X / Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-T3c6Jr3U3Qoq+e0F3m6u0yZb2m2q3sCq3S3y7yD9H3dZ0n0wLk7mL6Wb6YV3w7Jr3t0Z1h1b4jRZ9pC9N0k7yw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js" integrity="sha512-IYlH4k5r1q+o8Gm4tJm2GxTtXzT+uQOQwB9m6m1nqC4i4qE7r7mY7lZ9eJmWvYy3jv9lqTtU2pYz5nF5ZCkVtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

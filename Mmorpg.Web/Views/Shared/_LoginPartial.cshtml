@@ -1,0 +1,19 @@
+@using Microsoft.AspNetCore.Identity
+@using Mmorpg.Web.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<div class="av-auth">
+@if (SignInManager.IsSignedIn(User))
+{
+    <span class="av-auth__greeting">@L["Welcome"], @User.Identity?.Name</span>
+    <form class="av-auth__logout" asp-controller="Account" asp-action="Logout" method="post">
+        <button type="submit">@L["Logout"]</button>
+    </form>
+}
+else
+{
+    <a class="av-auth__link" asp-controller="Account" asp-action="Login">@L["Login"]</a>
+    <a class="av-auth__link av-auth__link--highlight" asp-controller="Account" asp-action="Register">@L["Register"]</a>
+}
+</div>

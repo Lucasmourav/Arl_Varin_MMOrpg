@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Register"><value>Registrar</value></data>
+  <data name="Login"><value>Acessar</value></data>
+  <data name="Download"><value>Baixar</value></data>
+  <data name="Store"><value>Loja</value></data>
+  <data name="Language"><value>Idioma</value></data>
+  <data name="News"><value>Notícias</value></data>
+  <data name="Community"><value>Comunidade</value></data>
+  <data name="Forum"><value>Fórum</value></data>
+  <data name="CreatorsProgram"><value>Programa de Criadores</value></data>
+  <data name="TwitchDrops"><value>Twitch Drops</value></data>
+  <data name="DeathsBoard"><value>Quadro de Mortes</value></data>
+  <data name="CharacterCreator"><value>Criador de Personagem</value></data>
+  <data name="Discover"><value>Descubra</value></data>
+  <data name="Guides"><value>Guias</value></data>
+  <data name="BasicBuilds"><value>Builds Básicas</value></data>
+  <data name="FAQ"><value>Perguntas Frequentes</value></data>
+  <data name="Videos"><value>Vídeos</value></data>
+  <data name="Story"><value>História</value></data>
+  <data name="Wallpapers"><value>Wallpapers</value></data>
+  <data name="Jobs"><value>Trabalhos</value></data>
+  <data name="Updates"><value>Atualizações</value></data>
+  <data name="PatchNotes"><value>Notas de Patch</value></data>
+  <data name="Events"><value>Eventos</value></data>
+  <data name="Seasons"><value>Temporadas</value></data>
+  <data name="Hotfixes"><value>Hotfixes</value></data>
+  <data name="Support"><value>Suporte</value></data>
+  <data name="CreateAccount"><value>Criar Conta</value></data>
+  <data name="Footer_About"><value>Um mundo vivo conectado pela Árvore da Vida. Explore mapas lendários, participe da comunidade e proteja Anor Calum das sombras.</value></data>
+  <data name="Footer_News"><value>Novidades</value></data>
+  <data name="Footer_NewsCenter"><value>Centro de Notícias</value></data>
+  <data name="Footer_SeasonalEvents"><value>Eventos Sazonais</value></data>
+  <data name="Footer_LiveEvents"><value>Eventos ao Vivo</value></data>
+  <data name="Footer_ContactSupport"><value>Contato &amp; Suporte</value></data>
+  <data name="Footer_HelpCenter"><value>Central de Ajuda:</value></data>
+  <data name="Footer_Email"><value>E-mail:</value></data>
+  <data name="Footer_Partners"><value>Parceiros:</value></data>
+  <data name="Footer_Press"><value>Mídia:</value></data>
+  <data name="Footer_Newsletter_Aria"><value>Assine para receber novidades</value></data>
+  <data name="Footer_Newsletter_Title"><value>Receba ecos de Al Varin</value></data>
+  <data name="Footer_Newsletter_Placeholder"><value>seuemail@exemplo.com</value></data>
+  <data name="Footer_Newsletter_Subscribe"><value>Assinar</value></data>
+  <data name="Footer_Sitemap"><value>Mapa do Site</value></data>
+  <data name="Home"><value>Início</value></data>
+  <data name="AllRightsReserved"><value>Todos os direitos reservados.</value></data>
+  <data name="Privacy"><value>Privacidade</value></data>
+  <data name="TermsOfUse"><value>Termos de Uso</value></data>
+  <data name="CookieSettings"><value>Configurações de Cookies</value></data>
+  <data name="Welcome"><value>Bem-vindo</value></data>
+  <data name="Logout"><value>Sair</value></data>
+  <data name="Hero_Eyebrow"><value>O Mundo Vivo</value></data>
+  <data name="Hero_Title"><value>Bem-vindo a Al Varin</value></data>
+  <data name="Hero_Subtitle"><value>A Árvore da Vida desperta e conecta cidades-estado distantes. Explore mapas lendários, conheça personagens essenciais e prepare-se para proteger Anor Calum do vazio.</value></data>
+  <data name="Hero_CTA_Lore"><value>Conheça nossa lore</value></data>
+  <data name="Section_Maps"><value>Mapas Sagrados</value></data>
+  <data name="Image_Map_GeneralAlt"><value>Mapa geral de Al Varin</value></data>
+  <data name="Map_Cartography_Title"><value>Cartografia de Al Varin</value></data>
+  <data name="Map_Cartography_Desc"><value>Visão geral das rotas que conectam Yorgard, Turan, Caelum e as raízes de Anor Calum.</value></data>
+  <data name="Image_Caelum_Alt"><value>Cidade aérea de Caelum</value></data>
+  <data name="Map_Caelum_Desc"><value>Capital do céu, berço dos planadores e místicos do vento.</value></data>
+  <data name="Image_Darcos_Alt"><value>Região sombria de Darcos</value></data>
+  <data name="Map_Darcos_Desc"><value>Ruínas tomadas pelo vazio onde bruxos enfrentam a sombra.</value></data>
+  <data name="Image_Farin_Alt"><value>Planícies de Farin</value></data>
+  <data name="Map_Farin_Desc"><value>Campos férteis protegidos por druidas e cavaleiros da seiva.</value></data>
+  <data name="Image_Nena_Alt"><value>Nena Hostvas</value></data>
+  <data name="Map_Nena_Desc"><value>Cartomante ladina do Círculo Lunar, vista nas sombras de Obus.</value></data>
+  <data name="Image_Turan_Alt"><value>Deserto de Turan</value></data>
+  <data name="Map_Turan_Desc"><value>Deserto ancestral onde xamãs canalizam tempestades vermelhas.</value></data>
+  <data name="Image_Yorgard_Alt"><value>Fortaleza de Yorgard</value></data>
+  <data name="Map_Yorgard_Desc"><value>Bastião militar que vigia a fronteira norte contra o vazio.</value></data>
+  <data name="Image_Obus_Alt"><value>Baía de Obus</value></data>
+  <data name="Map_Obus_Desc"><value>Porto comercial que liga Al Varin às tribos marítimas.</value></data>
+  <data name="Section_FeaturedCharacters"><value>Personagens em Destaque</value></data>
+  <data name="Image_Fearom_Alt"><value>Fearom, guardião de Anor Calum</value></data>
+  <data name="Char_Fearom_Desc"><value>Um veterano que sente a pulsação da Árvore. Lidera expedições para recuperar relíquias perdidas.</value></data>
+  <data name="Image_Kamizato_Alt"><value>Kamizato, druida luminar</value></data>
+  <data name="Char_Kamizato_Desc"><value>Especialista em rituais de cura que harmonizam luz e natureza, essencial nas defesas de Lumim.</value></data>
+  <data name="Image_Lumim_Alt"><value>Lumim, maga da aurora</value></data>
+</root>

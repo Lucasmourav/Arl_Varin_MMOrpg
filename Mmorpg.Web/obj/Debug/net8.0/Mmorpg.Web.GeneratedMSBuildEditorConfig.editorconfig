@@ -1,0 +1,175 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Mmorpg.Web
+build_property.RootNamespace = Mmorpg.Web
+build_property.ProjectDir = C:\Users\linki\Desktop\Alr Varin\Mmorpg.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\linki\Desktop\Alr Varin\Mmorpg.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Atualizacoes/Eventos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR1YWxpemFjb2VzXEV2ZW50b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Atualizacoes/Hotfixes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR1YWxpemFjb2VzXEhvdGZpeGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Atualizacoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR1YWxpemFjb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Atualizacoes/NotasDePatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR1YWxpemFjb2VzXE5vdGFzRGVQYXRjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Atualizacoes/Temporadas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR1YWxpemFjb2VzXFRlbXBvcmFkYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Community/CriadorDePersonagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XENyaWFkb3JEZVBlcnNvbmFnZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Community/Forum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XEZvcnVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Community/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Community/ProgramaDeCriadores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XFByb2dyYW1hRGVDcmlhZG9yZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Community/QuadroDeMortes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XFF1YWRyb0RlTW9ydGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Community/TwitchDrops.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XFR3aXRjaERyb3BzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Community/Wiki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaXR5XFdpa2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Descubra/BuildsBasicas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VicmFcQnVpbGRzQmFzaWNhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Descubra/Guias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VicmFcR3VpYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Descubra/Historia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VicmFcSGlzdG9yaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Descubra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VicmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Descubra/PerguntasFrequentes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VicmFcUGVyZ3VudGFzRnJlcXVlbnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Descubra/Trabalhos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VicmFcVHJhYmFsaG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Descubra/Videos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VicmFcVmlkZW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Descubra/Wallpapers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzY3VicmFcV2FsbHBhcGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/News/Comunicados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xDb211bmljYWRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/News/Ecos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xFY29zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/News/EventosAoVivo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xFdmVudG9zQW9WaXZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Pdf/Sample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGRmXFNhbXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Portal/Download.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGFsXERvd25sb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Portal/Loja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGFsXExvamEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Suporte/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vwb3J0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linki/Desktop/Alr Varin/Mmorpg.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g9hpp8rhgd

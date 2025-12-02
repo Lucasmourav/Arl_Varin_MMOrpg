@@ -1,0 +1,278 @@
+﻿@{
+    ViewData["Title"] = "Al Varin";
+}
+
+<section class="av-hero av-hero--home">
+    <span class="av-hero__eyebrow">@L["Hero_Eyebrow"]</span>
+    <h1 class="av-hero__title">@L["Hero_Title"]</h1>
+    <p class="av-hero__subtitle">@L["Hero_Subtitle"]</p>
+    <a class="av-cta" asp-controller="Descubra" asp-action="Historia">@L["Hero_CTA_Lore"]</a>
+</section>
+
+<section class="av-section av-showcase">
+    <h2 class="av-section-heading">@L["Section_Maps"]</h2>
+    <div class="av-map-grid">
+        <article class="av-map-card">
+            <img src="~/images/maps/mapa-alr-varin.jpg" alt="@L["Image_Map_GeneralAlt"]" />
+            <div class="av-map-card__caption">
+                <h3>@L["Map_Cartography_Title"]</h3>
+                <p>@L["Map_Cartography_Desc"]</p>
+            </div>
+        </article>
+        <div class="av-map-clusters">
+            <article class="av-map-thumb av-map-thumb--caelum" tabindex="0" aria-labelledby="caelum-thumb-title" aria-describedby="caelum-thumb-desc">
+                <img src="~/images/maps/caelum.jpg" alt="@L["Image_Caelum_Alt"]" />
+                <div>
+                    <h4 id="caelum-thumb-title">Caelum</h4>
+                    <p id="caelum-thumb-desc">@L["Map_Caelum_Desc"]</p>
+                </div>
+                <div class="av-map-thumb__overlay" aria-hidden="true">
+                    <div class="av-map-thumb__overlay-content">
+                        <h5 id="caelum-overlay-title">Caelum Dorrin</h5>
+                        <p class="av-map-thumb__overlay-lead">Humano, 18 anos · Multiclasse Clérigo / Emanante · Devoto de Yverst</p>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Descrição Física</h6>
+                            <p>Rapaz determinado, com cicatrizes de batalhas aéreas. Veste couro reforçado por chapas de ferro, luvas grossas e mantém os óculos de soldagem sempre prontos sobre a cabeça. Sua cimitarra mecânica, movida a engrenagens e vapor, simboliza a união entre fé e tecnologia.</p>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Personalidade</h6>
+                            <ul class="av-map-thumb__list">
+                                <li>Otimista e sonhador, guiado por curiosidade genuína.</li>
+                                <li>Brincalhão, mas assume responsabilidade quando necessário.</li>
+                                <li>Prefere agir a discursar; guarda segredos sobre si.</li>
+                                <li>Coração sincero, movido a entender o mundo e suas máquinas.</li>
+                            </ul>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>História</h6>
+                            <p>Nascido em Lumim, Caelum recebeu do avô Giano a paixão por máquinas e pela fé em Yverst, o Senhor dos Vapores. Estudou magia sagrada na igreja e brincava com invenções que sonhavam erguer a frota de naves a vapor do Império.</p>
+                            <p>Com a morte de Giano, mergulhou na pobreza e sobreviveu improvisando nas ruas. O destino o levou aos céus como pirata aéreo, enfrentando tempestades a vapor. Próximo a Anor Calum, avistou uma figura ligada à tragédia do avô — mistério que agora tenta desvendar com novos aliados.</p>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Equipamentos</h6>
+                            <ul class="av-map-thumb__list">
+                                <li>Cimitarra mecânica de engrenagens aquecidas a vapor.</li>
+                                <li>Óculos de soldagem e luvas reforçadas para manutenção em voo.</li>
+                                <li>Kit de ferramentas mecânicas portátil.</li>
+                                <li>Medalhão de Yverst em bronze e âmbar, foco de suas preces.</li>
+                            </ul>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Habilidades</h6>
+                            <ul class="av-map-thumb__list">
+                                <li><strong>Canalização do Vapor Divino:</strong> converte energia sagrada em pressão e calor.</li>
+                                <li><strong>Bênção das Engrenagens:</strong> melhora temporariamente máquinas e armas.</li>
+                                <li><strong>Reparo Sagrado:</strong> restaura mecanismos danificados com energia espiritual.</li>
+                                <li><strong>Explosão de Fé:</strong> liberta rajada de vapor que repele ameaças próximas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="av-map-thumb av-map-thumb--darcos" tabindex="0" aria-labelledby="darcos-thumb-title" aria-describedby="darcos-thumb-desc">
+                <img src="~/images/maps/darcos.jpg" alt="@L["Image_Darcos_Alt"]" />
+                <div>
+                    <h4 id="darcos-thumb-title">Darcos</h4>
+                    <p id="darcos-thumb-desc">@L["Map_Darcos_Desc"]</p>
+                </div>
+                <div class="av-map-thumb__overlay" aria-hidden="true">
+                    <div class="av-map-thumb__overlay-content">
+                        <h5>Darcos Valien</h5>
+                        <p class="av-map-thumb__overlay-lead">Humano, 25 anos · Astrólogo · Cidades das Torres de Yorgard</p>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Descrição Física</h6>
+                            <p>Homem de porte refinado, cabelos longos e olhos azuis intensos. Usa monóculo encantado, gibão azul-celeste com constelações e colar de Starlit que canaliza energia elemental.</p>
+                            <p>Carrega bolsa de couro com instrumentos arcanos; barba rala e postura de erudito viajante.</p>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Armas e Foco Arcano</h6>
+                            <ul class="av-map-thumb__list">
+                                <li>Sextante estelar para navegação e conjuração.</li>
+                                <li>Runas em metais e pergaminhos.</li>
+                                <li>Starlits multicoloridos representando elementos.</li>
+                            </ul>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Personalidade</h6>
+                            <ul class="av-map-thumb__list">
+                                <li>Culto, curioso e levemente excêntrico.</li>
+                                <li>Humor refinado e irônico.</li>
+                                <li>Entediado com a nobreza; busca emoção em viagens.</li>
+                                <li>Valoriza liberdade e prefere viver como andarilho por escolha.</li>
+                            </ul>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>História</h6>
+                            <p>Filho da nobreza mágica de Yorgard, recebeu a bênção da Rainha Yulan e inventou o Conversor de Poeira Estelar, garantindo energia renovável à cidade.</p>
+                            <p>Apesar do reconhecimento, abandonou os luxos para explorar o mundo. Em Anor Calum, procura uma seita que manipula forças estelares corrompidas e negocia artefatos raros enquanto traça novas constelações.</p>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Habilidades</h6>
+                            <ul class="av-map-thumb__list">
+                                <li><strong>Leitura Celestial:</strong> interpreta astros para prever presságios.</li>
+                                <li><strong>Canalização Estelar:</strong> transforma Starlits em poder bruto.</li>
+                                <li><strong>Conversor de Poeira:</strong> molda poeira estelar em energia ou ilusões.</li>
+                                <li><strong>Ritual dos Seis Céus:</strong> fenômeno astral que fortalece aliados e enfraquece inimigos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="av-map-thumb av-map-thumb--farin" tabindex="0" aria-labelledby="farin-thumb-title" aria-describedby="farin-thumb-desc">
+                <img src="~/images/maps/farin.jpg" alt="@L["Image_Farin_Alt"]" />
+                <div>
+                    <h4 id="farin-thumb-title">Farin</h4>
+                    <p id="farin-thumb-desc">@L["Map_Farin_Desc"]</p>
+                </div>
+                <div class="av-map-thumb__overlay" aria-hidden="true">
+                    <div class="av-map-thumb__overlay-content">
+                        <h5>Farin Ferost</h5>
+                        <p class="av-map-thumb__overlay-lead">Draconato Ryu, 250 anos · Samurai · Clã Ryu — Ordem da Lâmina Esmeralda</p>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Descrição Física</h6>
+                            <p>Imponente draconato de escamas verde-esmeralda reluzentes, crina e sobrancelhas vermelhas como brasa. Corpo esguio e poderoso forjado pela disciplina marcial de Kamizato, protegido por armadura de placas e elmo adaptado aos chifres ancestrais.</p>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Armas e Técnicas</h6>
+                            <ul class="av-map-thumb__list">
+                                <li>Odachi pesada ancestral de dois metros.</li>
+                                <li>Magias de estímulo que fortalecem músculos, reflexos e ataque.</li>
+                                <li>Golpes desarmados dracônicos com garras e energia interna.</li>
+                                <li>Roubo de Vida absorve vitalidade a cada impacto.</li>
+                                <li>Sangramento Esmeralda enfraquece inimigos com maior vida máxima.</li>
+                            </ul>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Personalidade</h6>
+                            <ul class="av-map-thumb__list">
+                                <li>Honrado, jamais quebra a palavra dada.</li>
+                                <li>Calmo e disciplinado, severo diante de injustiças.</li>
+                                <li>Gentil com família e aliados.</li>
+                                <li>Implacável contra adversários que ameaçam a ordem.</li>
+                                <li>Segue rigidamente o código do clã Ryu.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="av-map-thumb av-map-thumb--nena" tabindex="0" aria-labelledby="nena-thumb-title" aria-describedby="nena-thumb-desc">
+                <img src="~/images/characters/nena-hostvas.jpg" alt="@L["Image_Nena_Alt"]" />
+                <div>
+                    <h4 id="nena-thumb-title">Nena Hostvas</h4>
+                    <p id="nena-thumb-desc">@L["Map_Nena_Desc"]</p>
+                </div>
+                <div class="av-map-thumb__overlay" aria-hidden="true">
+                    <div class="av-map-thumb__overlay-content">
+                        <h5>Nena Hostvas</h5>
+                        <p class="av-map-thumb__overlay-lead">Elfa da Floresta · Idade desconhecida · Cartomante/Ladina · Círculo Lunar de Obus</p>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Descrição Física</h6>
+                            <p>Figura envolta em véus roxos e armadura prateada silenciosa. Mantém capuz e lenço escuro que ocultam o rosto, revelando apenas olhos prateados. Cabelos igualmente prateados brilham sob a lua; colar lunar de prata sela seu pacto noturno.</p>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Armas e Foco Lunar</h6>
+                            <ul class="av-map-thumb__list">
+                                <li>Foice curta da Lua para cortes rápidos e sem ruído.</li>
+                                <li>Arco e flechas Spirivel de madeira lunar encantada.</li>
+                                <li>Cartas das Fases da Lua usadas como arma mágica e teleporte.</li>
+                                <li>Cartas notórias: Lua Cheia (ilusões), Lua Minguante (fuga), Eclipse (presságios).</li>
+                            </ul>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Personalidade</h6>
+                            <ul class="av-map-thumb__list">
+                                <li>Silenciosa e introspectiva, fala apenas o essencial.</li>
+                                <li>Observadora analítica; sentimentos raramente expostos.</li>
+                                <li>Cética, mas devota à Lua e seus presságios.</li>
+                                <li>Aura misteriosa que inspira respeito e desconfiança.</li>
+                            </ul>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>História</h6>
+                            <p>Emergiu das sombras após o incêndio que devastou uma vila próxima a Obus. Rumores falam de ódio ao fogo e de olhos que refletem chamas do passado. Investiga incidentes mágicos em Anor Calum ligados a experimentos proibidos e ecos das Starlits de Yorgard.</p>
+                            <p>Move-se silenciosamente, deixando apenas o som de cartas cortando o ar e rastros prateados de feitiços infalíveis.</p>
+                        </div>
+
+                        <div class="av-map-thumb__section">
+                            <h6>Habilidades</h6>
+                            <ul class="av-map-thumb__list">
+                                <li><strong>Cartas Lunares:</strong> efeitos mágicos conforme a fase da lua.</li>
+                                <li><strong>Sombra Errante:</strong> desloca-se entre sombras como teleporte curto.</li>
+                                <li><strong>Olhar Profético:</strong> vislumbra fragmentos do futuro noturno.</li>
+                                <li><strong>Ataque Crescente:</strong> golpe curvo com sangramento contínuo.</li>
+                                <li><strong>Reflexo da Lua Nova:</strong> cria ilusão perfeita de si por instantes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="av-map-thumb">
+                <img src="~/images/maps/turan.jpg" alt="@L["Image_Turan_Alt"]" />
+                <div>
+                    <h4>Turan</h4>
+                    <p>@L["Map_Turan_Desc"]</p>
+                </div>
+            </article>
+            <article class="av-map-thumb">
+                <img src="~/images/maps/yorgard.jpg" alt="@L["Image_Yorgard_Alt"]" />
+                <div>
+                    <h4>Yorgard</h4>
+                    <p>@L["Map_Yorgard_Desc"]</p>
+                </div>
+            </article>
+            <article class="av-map-thumb">
+                <img src="~/images/maps/obus.jpg" alt="@L["Image_Obus_Alt"]" />
+                <div>
+                    <h4>Obus</h4>
+                    <p>@L["Map_Obus_Desc"]</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<div class="av-divider"></div>
+
+<section class="av-section av-characters">
+    <h2 class="av-section-heading">@L["Section_FeaturedCharacters"]</h2>
+    <div class="av-grid av-grid--two">
+        <article class="av-character-card">
+            <img src="~/images/characters/fearom.jpg" alt="@L["Image_Fearom_Alt"]" />
+            <div class="av-character-card__content">
+                <h3>Fearom, Guardião Raiz</h3>
+                <p>@L["Char_Fearom_Desc"]</p>
+            </div>
+        </article>
+        <article class="av-character-card">
+            <img src="~/images/characters/kamizato.jpg" alt="@L["Image_Kamizato_Alt"]" />
+            <div class="av-character-card__content">
+                <h3>Kamizato, Druida Luminar</h3>
+                <p>@L["Char_Kamizato_Desc"]</p>
+            </div>
+        </article>
+        <article class="av-character-card">
+            <img src="~/images/characters/lumim.jpg" alt="@L["Image_Lumim_Alt"]" />
+            <div class="av-character-card__content">
+                <h3>Lumim, Maga da Aurora</h3>
+                <p>@L["Char_Lumim_Desc"]</p>
+            </div>
+        </article>
+    </div>
+</section>

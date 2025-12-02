@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Register"><value>Register</value></data>
+  <data name="Login"><value>Sign in</value></data>
+  <data name="Download"><value>Download</value></data>
+  <data name="Store"><value>Store</value></data>
+  <data name="Language"><value>Language</value></data>
+  <data name="News"><value>News</value></data>
+  <data name="Community"><value>Community</value></data>
+  <data name="Forum"><value>Forum</value></data>
+  <data name="CreatorsProgram"><value>Creators Program</value></data>
+  <data name="TwitchDrops"><value>Twitch Drops</value></data>
+  <data name="DeathsBoard"><value>Deaths Board</value></data>
+  <data name="CharacterCreator"><value>Character Creator</value></data>
+  <data name="Discover"><value>Discover</value></data>
+  <data name="Guides"><value>Guides</value></data>
+  <data name="BasicBuilds"><value>Basic Builds</value></data>
+  <data name="FAQ"><value>FAQ</value></data>
+  <data name="Videos"><value>Videos</value></data>
+  <data name="Story"><value>Story</value></data>
+  <data name="Wallpapers"><value>Wallpapers</value></data>
+  <data name="Jobs"><value>Jobs</value></data>
+  <data name="Updates"><value>Updates</value></data>
+  <data name="PatchNotes"><value>Patch Notes</value></data>
+  <data name="Events"><value>Events</value></data>
+  <data name="Seasons"><value>Seasons</value></data>
+  <data name="Hotfixes"><value>Hotfixes</value></data>
+  <data name="Support"><value>Support</value></data>
+  <data name="CreateAccount"><value>Create Account</value></data>
+  <data name="Footer_About"><value>A living world connected by the Tree of Life. Explore legendary maps, join the community, and protect Anor Calum from the shadows.</value></data>
+  <data name="Footer_News"><value>News</value></data>
+  <data name="Footer_NewsCenter"><value>News Center</value></data>
+  <data name="Footer_SeasonalEvents"><value>Seasonal Events</value></data>
+  <data name="Footer_LiveEvents"><value>Live Events</value></data>
+  <data name="Footer_ContactSupport"><value>Contact &amp; Support</value></data>
+  <data name="Footer_HelpCenter"><value>Help Center:</value></data>
+  <data name="Footer_Email"><value>Email:</value></data>
+  <data name="Footer_Partners"><value>Partners:</value></data>
+  <data name="Footer_Press"><value>Press:</value></data>
+  <data name="Footer_Newsletter_Aria"><value>Subscribe to receive updates</value></data>
+  <data name="Footer_Newsletter_Title"><value>Receive echoes from Al Varin</value></data>
+  <data name="Footer_Newsletter_Placeholder"><value>you@example.com</value></data>
+  <data name="Footer_Newsletter_Subscribe"><value>Subscribe</value></data>
+  <data name="Footer_Sitemap"><value>Sitemap</value></data>
+  <data name="Home"><value>Home</value></data>
+  <data name="AllRightsReserved"><value>All rights reserved.</value></data>
+  <data name="Privacy"><value>Privacy</value></data>
+  <data name="TermsOfUse"><value>Terms of Use</value></data>
+  <data name="CookieSettings"><value>Cookie Settings</value></data>
+  <data name="Welcome"><value>Welcome</value></data>
+  <data name="Logout"><value>Sign out</value></data>
+  <data name="Hero_Eyebrow"><value>The Living World</value></data>
+  <data name="Hero_Title"><value>Welcome to Al Varin</value></data>
+  <data name="Hero_Subtitle"><value>The Tree of Life awakens and connects distant city-states. Explore legendary maps, meet key characters, and prepare to defend Anor Calum from the void.</value></data>
+  <data name="Hero_CTA_Lore"><value>Learn our lore</value></data>
+  <data name="Section_Maps"><value>Sacred Maps</value></data>
+  <data name="Image_Map_GeneralAlt"><value>General map of Al Varin</value></data>
+  <data name="Map_Cartography_Title"><value>Cartography of Al Varin</value></data>
+  <data name="Map_Cartography_Desc"><value>Overview of routes connecting Yorgard, Turan, Caelum, and the roots of Anor Calum.</value></data>
+  <data name="Image_Caelum_Alt"><value>Sky city of Caelum</value></data>
+  <data name="Map_Caelum_Desc"><value>Capital of the skies, cradle of gliders and wind mystics.</value></data>
+  <data name="Image_Darcos_Alt"><value>Dark region of Darcos</value></data>
+  <data name="Map_Darcos_Desc"><value>Ruins claimed by the void where warlocks face the shadow.</value></data>
+  <data name="Image_Farin_Alt"><value>Plains of Farin</value></data>
+  <data name="Map_Farin_Desc"><value>Fertile fields protected by druids and sap knights.</value></data>
+  <data name="Image_Nena_Alt"><value>Nena Hostvas</value></data>
+  <data name="Map_Nena_Desc"><value>Rogue cartomancer of the Lunar Circle, seen in the shadows of Obus.</value></data>
+  <data name="Image_Turan_Alt"><value>Desert of Turan</value></data>
+  <data name="Map_Turan_Desc"><value>Ancient desert where shamans channel red storms.</value></data>
+  <data name="Image_Yorgard_Alt"><value>Fortress of Yorgard</value></data>
+  <data name="Map_Yorgard_Desc"><value>Military bastion guarding the northern border against the void.</value></data>
+  <data name="Image_Obus_Alt"><value>Bay of Obus</value></data>
+  <data name="Map_Obus_Desc"><value>Trading port linking Al Varin to maritime tribes.</value></data>
+  <data name="Section_FeaturedCharacters"><value>Featured Characters</value></data>
+  <data name="Image_Fearom_Alt"><value>Fearom, guardian of Anor Calum</value></data>
+  <data name="Char_Fearom_Desc"><value>A veteran who feels the Tree's pulse. Leads expeditions to recover lost relics.</value></data>
+  <data name="Image_Kamizato_Alt"><value>Kamizato, luminar druid</value></data>
+  <data name="Char_Kamizato_Desc"><value>Specialist in healing rituals that harmonize light and nature, essential to Lumim's defenses.</value></data>
+  <data name="Image_Lumim_Alt"><value>Lumim, dawn mage</value></data>
+</root>
