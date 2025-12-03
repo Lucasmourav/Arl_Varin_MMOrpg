@@ -1,5 +1,6 @@
-# Arl_Varin_MMOrpg
-1. Introdução do Projeto
+# 1. Arl_Varin_MMOrpg
+
+2. Introdução do Projeto
 
 Nome do Projeto:
 Alr Varin MMORPG Web Portal
